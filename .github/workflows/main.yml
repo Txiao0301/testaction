@@ -1,8 +1,6 @@
 name: Main Workflow
 
-on:
-  schedule:
-    - cron: '*/20 * * * *'
+on: [push]
 
 jobs:
   build:
